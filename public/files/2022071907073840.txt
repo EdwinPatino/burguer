@@ -1,0 +1,43 @@
+18:38:45	 From Raúl Garay : buenas tardes Profe
+18:39:42	 From German Casas 35265065 : no me anda el audio profe
+18:46:20	 From David Lidueña : mira el nombre+
+18:46:57	 From David Lidueña : nombre del archivo
+18:51:20	 From Maxi linares  : Buenas. Alguien me podría compartir el código para dar presente?
+18:51:52	 From Raúl Garay : profe puede pasar el TOKEN por el chat
+18:51:59	 From German Casas 35265065 : O2QNAJ
+18:52:11	 From Maxi linares  : Gracias
+18:53:37	 From agustin vallejos : yo estoy una clase atrasado profe porque volví de viaje y estoy tratando de ponerme al día
+18:55:22	 From Jhonnatan M  To  Nelson O2QNAJ(privately) : Hola profesor, yo no podre realizar ejercicios el día de hoy, mi laptop se daño el martes pasado y aún se encuentra en mantenimiento... tan pronto la tenga nuevamente adelantara las clases del miercoles y hoy. Disculpa la molestia
+19:07:50	 From German Casas 35265065 : profe puede copiar y pegar "mostrar error"
+19:09:30	 From Nelson O2QNAJ : ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+19:27:23	 From Christian Plenazzio : Buenas Tardes Profe. Disculpe la demora en ingresar.. Estoy en el trabajo y estaba ocupado con una tarea. Luego vere la 1er hora de clase
+19:39:43	 From Christian Plenazzio  To  Nelson O2QNAJ(privately) : Profe. Desgraciadamente hoy estare como oyente, ya que no me habilitaron el uso del programa XAMPP en el trabajo ya que no es para algo laboral.
+19:49:36	 From Álvaro José Carvajal Vidarte  To  Nelson O2QNAJ(privately) : Profe, lo hice así:function promediar($aNotas){    $sumaTotal = 0;    foreach ($aNotas as $nota) {        $sumaTotal = $sumaTotal + $nota;     }    $promedio = $sumaTotal / count($aNotas);    return $promedio;}
+19:50:21	 From ignacio porto  To  Nelson O2QNAJ(privately) : <?phpini_set('display_errors', 1);ini_set('display_startup_errors', 1);error_reporting(E_ALL);$aNotas = array(8, 4, 5, 3, 9, 1);function promediar($aNumeros){    $suma = 0 ;    foreach($aNumeros as $numero) {        $suma = $suma + $numero;    }    return count($aNumeros);}echo "La nota promedio es: " . promediar($aNotas);
+19:50:58	 From David Lidueña : mucha información.
+19:51:10	 From Gonzalo Romero  To  Nelson O2QNAJ(privately) : function calcularPromedio($aNotas){    $cantidadNotas = count($aNotas);    $sumaNotas=0;    for( $i=0; $i<$cantidadNotas ; $i++){        $sumaNotas = $sumaNotas + $aNotas[$i];    }    $promedio = $sumaNotas / count($aNotas);    return $promedio;    }
+19:51:17	 From David Lidueña : apenas acabas de entender una cuando lanzan la otra
+19:51:21	 From David Lidueña : jajajajaja
+19:51:31	 From ignacio porto  To  Nelson O2QNAJ(privately) : jajajaja
+19:51:32	 From Gadiel  To  Nelson O2QNAJ(privately) : function promediar($array){    $sumar = 0;    foreach ($array as $numero) {        $sumar = +$numero;    }    $promedio = $sumar / count($array);    echo $promedio;}
+19:51:50	 From ignacio porto  To  Nelson O2QNAJ(privately) : no era para aca :C
+19:54:48	 From Gadiel  To  Nelson O2QNAJ(privately) : a perfecto
+19:55:02	 From Gadiel  To  Nelson O2QNAJ(privately) : gracias
+19:55:26	 From nico mac  To  Nelson O2QNAJ(privately) : function promediar($aNumeros){  foreach($aNumeros as $numero){    return ($numero+=$numero)/count($aNumeros);  }}
+19:55:33	 From nico mac  To  Nelson O2QNAJ(privately) : creo que hice cualquiera profe
+20:00:09	 From Gadiel  To  Nelson O2QNAJ(privately) : function maximo($array){    $mayor = "";    //definicion    foreach ($array as $numero) {        if ($numero > $mayor) {            $mayor = $numero;        }    }    echo $mayor;}
+20:02:52	 From Santiago Ferreyra  To  Nelson O2QNAJ(privately) : function promediar($aNumeros){    return array_sum($aNumeros) / count($aNumeros);    }
+20:08:44	 From ignacio porto  To  Nelson O2QNAJ(privately) : function maximo($aVector){    $maximo = 0;    foreach($aVector as $item){        if($maximo < $item){            $maximo = $item;        }    }    return $maximo;}
+20:09:03	 From Álvaro José Carvajal Vidarte  To  Nelson O2QNAJ(privately) : Profe, el del valor máximo lo hice así:function maximo($aVector){    $valorMaximo = 0;foreach ($aVector as $valor) {    if($valorMaximo < $valor) {        $valorMaximo = $valor;    }}return $valorMaximo;}
+20:11:57	 From David Lidueña  To  Nelson O2QNAJ(privately) : echo(max(array(1,2,3,4)));
+20:13:05	 From Gonzalo Romero  To  Nelson O2QNAJ(privately) : function maximo($aVector){    $valorMaximo = 0;    for ($i = 0 ; $i<count($aVector) ;$i++){        if ($valorMaximo < $aVector[$i]){            $valorMaximo = $aVector[$i];        }    }    return $valorMaximo;}
+20:28:11	 From David Lidueña  To  Nelson O2QNAJ(privately) : if(valormaximo<$valor)
+20:28:19	 From Santiago Ferreyra  To  Nelson O2QNAJ(privately) : function maximo($aNumeros){    $maximo=0;    foreach($aNumeros as $numero){                    if($maximo < $numero){            $maximo = $numero;        }                    }     return $maximo; }
+20:49:51	 From ignacio porto  To  Nelson O2QNAJ(privately) : <div class="row">                <div class="col-12">                    <p>Promedio de la cursada: <?php echo number_format($promedioCurso, 2, ",", "."); ?> </p>                </div>            </div>
+20:50:03	 From ignacio porto  To  Nelson O2QNAJ(privately) : profe me da 0.00 el promedio de la cursada
+20:50:06	 From ignacio porto  To  Nelson O2QNAJ(privately) : que puede ser
+20:50:08	 From ignacio porto  To  Nelson O2QNAJ(privately) : ?
+20:53:10	 From Santiago Ferreyra : no puedo hablar
+20:56:01	 From Gadiel  To  Nelson O2QNAJ(privately) : sin micro por  las dudas
